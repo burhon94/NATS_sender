@@ -1,0 +1,10 @@
+GET localhost:8888:/api/health
+
+###
+POST localhost:8888:/api/sender
+Content-Type: application/json
+
+{
+"id": 1,
+  "name": "test"
+}
